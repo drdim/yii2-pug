@@ -12,7 +12,7 @@ use yii\helpers\FileHelper;
 
 /**
  * Class ViewRenderer
- * @package rmrevin\yii\pug
+ * @package drdim\yii\pug
  */
 class ViewRenderer extends \yii\base\ViewRenderer
 {

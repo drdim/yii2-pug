@@ -1,8 +1,6 @@
 <?php
 /**
  * TestCase.php
- * @author Revin Roman
- * @link https://rmrevin.ru
  */
 
 namespace drdim\yii\pug\tests\unit;

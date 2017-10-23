@@ -1,15 +1,13 @@
 <?php
 /**
  * Exception.php
- * @author Revin Roman
- * @link https://rmrevin.com
  */
 
-namespace rmrevin\yii\pug;
+namespace drdim\yii\pug;
 
 /**
  * Class Exception
- * @package rmrevin\yii\pug
+ * @package drdim\yii\pug
  */
 class Exception extends \yii\base\Exception
 {

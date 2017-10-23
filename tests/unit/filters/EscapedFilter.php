@@ -11,7 +11,7 @@ use Pug\Filter\AbstractFilter;
 
 /**
  * Class EscapedFilter
- * @package rmrevin\yii\pug\tests\unit\filters
+ * @package drdim\yii\pug\tests\unit\filters
  */
 class EscapedFilter extends AbstractFilter
 {
