@@ -9,7 +9,7 @@ use yii\helpers\ArrayHelper;
 
 /**
  * Class TestCase
- * @package rmrevin\yii\pug\tests\unit
+ * @package drdim\yii\pug\tests\unit
  * This is the base class for all yii framework unit tests.
  */
 abstract class TestCase extends \PHPUnit_Framework_TestCase
