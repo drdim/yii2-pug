@@ -29,7 +29,7 @@ The preferred way to install this extension is through [composer](https://getcom
 Either run
 
 ```bash
-composer require "drdim/yii2-pug:~0.0"
+composer require "drdim/yii2-pug:dev-master"
 ```
 
 or add
