@@ -1,5 +1,5 @@
 {
-  "name": "rmrevin/yii2-pug",
+  "name": "drdim/yii2-pug",
   "description": "Yii2 Pug (ex Jade) extension",
   "keywords": [
     "yii",
@@ -10,26 +10,26 @@
   ],
   "type": "yii2-extension",
   "license": "MIT",
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "support": {
-    "issues": "https://github.com/rmrevin/yii2-pug/issues",
-    "source": "https://github.com/rmrevin/yii2-pug"
+    "issues": "https://github.com/drdim/yii2-pug/issues",
+    "source": "https://github.com/drdim/yii2-pug"
   },
   "authors": [
     {
-      "name": "Revin Roman",
-      "email": "roman@rmrevin.com",
-      "homepage": "https://rmrevin.com/"
+      "name": "Bogatkin Dmitriy",
+      "email": "dr.dim.pro@gmail.com",
+      "homepage": "https://drdim.ru/"
     }
   ],
   "require": {
     "php": ">=5.4.0",
     "yiisoft/yii2": "2.0.*",
-    "pug-php/pug": "~2.5"
+    "pug-php/pug": "~3.0"
   },
   "autoload": {
     "psr-4": {
-      "rmrevin\\yii\\pug\\": ""
+      "drdim\\yii\\pug\\": ""
     }
   },
   "extra": {

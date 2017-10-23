@@ -1,11 +1,9 @@
 <?php
 /**
  * View.php
- * @author Revin Roman
- * @link https://rmrevin.com
  */
 
-namespace rmrevin\yii\pug;
+namespace drdim\yii\pug;
 
 use Pug\Pug;
 use Yii;
@@ -63,6 +61,7 @@ class ViewRenderer extends \yii\base\ViewRenderer
 
         $this->pug = new Pug(array_merge([
             'cache' => $cachePath,
+            'expressionLanguage' => 'php'
         ], $this->options));
 
         // Adding custom filters

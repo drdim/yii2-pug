@@ -5,7 +5,7 @@
  * @link https://rmrevin.ru
  */
 
-namespace rmrevin\yii\pug\tests\unit;
+namespace drdim\yii\pug\tests\unit;
 
 use yii\helpers\ArrayHelper;
 
@@ -80,7 +80,8 @@ abstract class TestCase extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @return \rmrevin\yii\pug\ViewRenderer
+     * @return \drdim\yii\pug\ViewRenderer
+     * @throws \yii\base\InvalidConfigException
      */
     public function getPugRenderer()
     {

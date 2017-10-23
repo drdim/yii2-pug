@@ -1,14 +1,12 @@
 <?php
 /**
  * EscapedFilter.php
- * @author Revin Roman
- * @link https://rmrevin.com
  */
 
-namespace rmrevin\yii\pug\tests\unit\filters;
+namespace drdim\yii\pug\tests\unit\filters;
 
-use Jade\Compiler;
-use Jade\Nodes\Filter;
+use Pug\Compiler;
+use Pug\Nodes\Filter;
 use Pug\Filter\AbstractFilter;
 
 /**

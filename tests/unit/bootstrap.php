@@ -1,8 +1,7 @@
 <?php
 /**
  * bootstrap.php
- * @author Revin Roman
- * @link https://rmrevin.ru
+ * @author drdim
  */
 
 define('YII_ENABLE_ERROR_HANDLER', true);

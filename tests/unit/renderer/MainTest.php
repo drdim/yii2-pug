@@ -1,19 +1,17 @@
 <?php
 /**
  * MainTest.php
- * @author Revin Roman
- * @link https://rmrevin.ru
  */
 
-namespace rmrevin\yii\pug\tests\unit\renderer;
+namespace drdim\yii\pug\tests\unit\renderer;
 
 use yii\helpers\FileHelper;
 
 /**
  * Class MainTest
- * @package rmrevin\yii\pug\tests\unit\renderer
+ * @package drdim\yii\pug\tests\unit\renderer
  */
-class MainTest extends \rmrevin\yii\pug\tests\unit\TestCase
+class MainTest extends \drdim\yii\pug\tests\unit\TestCase
 {
 
     public function tearDown()

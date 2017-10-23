@@ -17,9 +17,9 @@ return [
         'view' => [
             'renderers' => [
                 'pug' => [
-                    'class' => 'rmrevin\\yii\\pug\\ViewRenderer',
+                    'class' => 'drdim\\yii\\pug\\ViewRenderer',
                     'filters' => [
-                        'escaped' => 'rmrevin\\yii\\pug\\tests\\unit\\filters\\EscapedFilter'
+                        'escaped' => 'drdim\\yii\\pug\\tests\\unit\\filters\\EscapedFilter'
                     ],
                 ],
             ],
