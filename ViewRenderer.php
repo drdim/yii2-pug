@@ -27,9 +27,11 @@ class ViewRenderer extends \yii\base\ViewRenderer
      * @see https://github.com/pug-php/pug
      */
     public $options = [
-        'prettyprint' => false,
+        'pretty' => true,
         'extension' => '.pug',
         'upToDateCheck' => true,
+        'debug' => false,
+        'expressionLanguage' => 'php',
     ];
     /**
      * @var array Custom filters.
@@ -61,7 +63,6 @@ class ViewRenderer extends \yii\base\ViewRenderer
 
         $this->pug = new Pug(array_merge([
             'cache' => $cachePath,
-            'expressionLanguage' => 'php'
         ], $this->options));
 
         // Adding custom filters
@@ -86,7 +87,7 @@ class ViewRenderer extends \yii\base\ViewRenderer
      */
     public function render($view, $file, $params)
     {
-        return $this->pug->render($file, $params);
+        return $this->pug->render($file, ['view' => $view] + $params);
     }
 
     /**
